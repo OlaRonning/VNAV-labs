@@ -1,0 +1,41 @@
+# ROS2 / colcon build artifacts
+**/build/
+**/install/
+**/log/
+
+# Nix / direnv
+.direnv/
+.nix-profile
+result
+result-*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+dist/
+*.so
+
+# C++ build artifacts
+*.o
+*.a
+*.out
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and output
+*.log
+*.bag
+*.db3

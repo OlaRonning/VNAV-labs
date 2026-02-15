@@ -9,6 +9,9 @@ ROS bags necessary for labs can be found [here](https://github.com/MIT-SPARK/VNA
 
 Please post on the Github issues page if you encounter bugs and/or have questions.
 
+# FIXME
+ - `mav-msgs` is missing when building with `colcon build`
+
 # Licenses
 For licenses of the external packages, please refer to their specific repos.
 
